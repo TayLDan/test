@@ -6,5 +6,6 @@
  </head>
  <body>
     <script src="example.js"></script>
+    <p>hey guys</p>
 </body>
 </html>
