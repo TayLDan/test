@@ -1,0 +1,22 @@
+var beatles = Array(4)
+beatles[0] = 'John';
+beatles[1] = 'Paul';
+beatles[2] = 'George';
+beatles[3] = 'Ringo';
+
+var beatles = ['John','Paul','George','Ringo'];
+var years = [1997,1998,1999,2000];
+var lennon = ['John',1980,false];
+
+var name = 'John';
+beatles[0] = name
+
+var names = ['Ringo','John','George','Paul'];
+beatles [1] = names[3] ;
+
+var names = ['Ringo','John','George','Paul'];
+beatles[1] = names[3];
+
+var lennon = ['John',1940,false];
+var beatles =[];
+beatles[0] = lennon
