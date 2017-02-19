@@ -5,7 +5,7 @@ beatles[2] = 'George';
 beatles[3] = 'Ringo';
 
 var beatles = ['John','Paul','George','Ringo'];
-var years = [1997,1998,1999,2000];
+var years = [1940,1980,1999,2000];
 var lennon = ['John',1980,false];
 
 var name = 'John';
@@ -20,3 +20,87 @@ beatles[1] = names[3];
 var lennon = ['John',1940,false];
 var beatles =[];
 beatles[0] = lennon
+
+var lennon ={name:'John',year:1940,living:false};
+
+var beatles =Array();
+beatles[0] = lennon;
+//用beatles[0].name得到值'John'
+
+var beatles = {};
+beatles.vocalist = lennon;
+//现在beatles.vocalist.name的值是'John'
+//beatles.vocalist.year的值是1940
+//beatles.vocalist.living的值是false
+
+var total =( 1 + 4) * 5;
+var temp_fahrenheit = 95;
+var temp_celsius = (temp_fahrenheit - 32)/ 1.8;
+
+//给一个数值变量加上1：
+year = year + 1;
+year ++;
+//同样 --对一个数值变量的值减1
+
+var message = "I am feeling " + "happy";
+var mood = "happy";
+var message = "I am feeling" + mood;
+
+var year = 2005;
+var message ="The year is" + year;
+
+alert("10" + 20);
+//返回字符串“1020”
+alert(10 + 20)
+//返回字符串“30“
+
+var year = 2010;
+var message = "The year is";
+message += year;
+alert(message)
+//显示“The year is 2010"
+
+if(1 > 2){
+    alert("The world has gone mad!");
+} else {
+    alert("All is well with the world");
+}
+
+var my_mood = "happy"
+var your_mood = "sad"
+if (my_mood == your_mood){
+    alert("We both feel the same.");
+}
+if (my_mood != your_mood){
+    alert("We're feeling different moods.");
+}
+
+var a = false;
+var b ="";
+if (a == b){
+    alert("a equals b");
+}
+//这时求值结果是ture 因为==认为空字符串与false的含义相同。
+
+var a = false;
+var b ="";
+if (a === b){
+    alert("a equals b");
+}
+//这次求值结果是false，因为布尔值和字符串不是同一类型
+//=== 为全等符号  ！==同样道理
+
+if ( num >=5 && num <= 10){
+    alert("The number is in the right range.")；
+}
+//&& 逻辑与符号 返回布尔值 要同时为true或同时为false
+
+if (num > 10 || num < 5){
+    alert("The number is not in the right range.");
+}
+// || 逻辑或符号 其中一个是true则操作就是true 当同时为false时操作才是false
+
+if (!( 1 > 2)){
+    alert("All is well with the world");
+}
+// ！逻辑非符号只能用于单个逻辑操作 其结果是把逻辑操作数返回的布尔值取反。
