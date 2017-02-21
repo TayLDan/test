@@ -104,3 +104,35 @@ if (!( 1 > 2)){
     alert("All is well with the world");
 }
 // ！逻辑非符号只能用于单个逻辑操作 其结果是把逻辑操作数返回的布尔值取反。
+
+var count = 1;
+while (count < 11){
+    alert (count);
+    count++;
+}
+//alert对话框闪现了10次，最后变量值count是11
+
+var count = 1;
+do{
+    alert(count);
+    count++;
+}while (count < 1);
+//即使求值结果是false，最后count的值会是2
+
+for(var count = 1;count < 11;count++){
+    alert(count);
+}
+
+//array.length 属性告诉我们在给定数组里的元素的个数。
+var beatles =Array("John","Paul","George","Ringo");
+for (var count = 0;count < beatles.length;count++){
+    alert(beatles[count]);
+}
+//运行这段代码，会看到四条alert消息，分别对应Beatles四位成员。
+
+function multiply(num1,num2){
+    var total = num1* num2;
+    alert(total);
+}
+multiply(10,2)
+//alter框弹出结果20
