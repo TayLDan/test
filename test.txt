@@ -136,3 +136,16 @@ function multiply(num1,num2){
 }
 multiply(10,2)
 //alter框弹出结果20
+
+function coverToCelsius(temp){
+    var result = temp - 32;
+    result = result / 1.8;
+    return result;
+}
+//调用上面的函数：
+var temp_fahrenheit = 95;
+var temp_celsius = coverToCelsius(temp_fahrenheit);
+alert(temp_celsius);
+//把华氏温度值95转换为摄氏温度值 最后结果为35
+
+//getElementById 这个方法将返回一个与那个有着给定id属性值得元素节点对应的对象
